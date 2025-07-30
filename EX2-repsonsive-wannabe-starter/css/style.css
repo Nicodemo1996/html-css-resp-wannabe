@@ -128,15 +128,19 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
-
+/*TABLET*/
 @media all and (max-width: 768px) {
     .container {
         width: 100%;
     }
 }
 
+
+/* MOBILE*/
+
+
 @media all and (max-width:480px) {
-    row {
+    .row {
         flex-direction: column;
     }
 
@@ -153,4 +157,8 @@ img {
 .steps .col:last-child,
 .why-us .col:last-child {
     margin-bottom: 0px;
+}
+
+.why-us {
+    border-color: black;
 }
